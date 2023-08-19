@@ -97,7 +97,7 @@ refs.form.addEventListener('submit', async e => {
     page = 1; // ?Reiniciar la página a 1
     loadImages(valueForm); // ?Cargar las imágenes
   } else {
-    Notiflix.Notify.warning('Please enter a search term.');
+    Notiflix.Notify.warning('Please enter a search term before submitting.');
   }
 });
 
